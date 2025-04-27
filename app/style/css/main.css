@@ -1,0 +1,123 @@
+:root {
+  --accent-color: #ff4f00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.weather-app {
+  margin: 0 auto;
+  width: 38rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.highlight {
+  color: white;
+  z-index: 1;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  background-color: var(--accent-color);
+  position: absolute;
+  width: 1.4rem;
+  height: 1.6rem;
+  top: 0rem;
+  left: 77%;
+  z-index: -1;
+}
+
+.search {
+  height: 4rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.weather {
+  width: 100%;
+}
+
+.selected-location {
+  font-weight: 200;
+  padding: 1rem;
+}
+
+.current-weather {
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.current-weather_temperature {
+  font-size: 5rem;
+}
+
+.current-weather_description {
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+}
+
+.firstBlock-description {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0.3rem;
+  font-size: 1.7rem;
+}
+
+.weekday {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.weekday-item {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.weekday-description {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.day-temperature {
+  text-align: right;
+}
+
+.weekday-temperature {
+  font-size: 1.4rem;
+}
+
+.timeOfDay {
+  font-size: 0.8rem;
+  color: #707070;
+  padding: 0.5rem 0;
+}
+
+.error {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--accent-color);
+}
