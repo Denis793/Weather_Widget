@@ -22,12 +22,6 @@ Built with pure JavaScript, HTML, and CSS, using the OpenWeatherMap API.
 
 ---
 
-## 📸 Preview
-
-![Weather Widget Screenshot](./app/assets/screenshot.png) <!-- Заміни або видали, якщо зображення немає -->
-
----
-
 ## ⚙️ Features
 
 - 🔍 Search weather by city name
