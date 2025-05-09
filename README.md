@@ -44,7 +44,7 @@ Built with pure JavaScript, HTML, and CSS, using the OpenWeatherMap API.
 ## 🚀 How to Run
 
 ### Online
-Visit the [GitHub Pages Deployment](https://your-username.github.io/Weather_Widget/)  
+Visit the [GitHub Pages Deployment](https://github.com/Denis793/Weather_Widget)  
 > Replace the link with your actual GitHub Pages link.
 
 ---
