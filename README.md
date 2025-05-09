@@ -1,7 +1,7 @@
 # 🌦 Weather Widget
 
 <p align="center">
-  <a href="https://github.com/Denis793/Weather_Widget" target="_blank">
+  <a href="https://denis793.github.io/Weather_Widget/" target="_blank">
     <img src="https://img.shields.io/badge/View%20Project-Click%20Here-blue?style=for-the-badge" alt="View Project">
   </a>
 </p>
@@ -44,7 +44,7 @@ Built with pure JavaScript, HTML, and CSS, using the OpenWeatherMap API.
 ## 🚀 How to Run
 
 ### Online
-Visit the [GitHub Pages Deployment](https://github.com/Denis793/Weather_Widget)  
+Visit the [GitHub Pages Deployment](https://denis793.github.io/Weather_Widget/)  
 > Replace the link with your actual GitHub Pages link.
 
 ---
